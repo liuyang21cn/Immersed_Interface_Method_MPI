@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -n 64                # requested MPI tasks
+#SBATCH -p parallel-short          # requested queue
+#SBATCH -t 600                # maximum runtime in minutes
+#SBATCH -J Couette
+#SBATCH -o output-%j.txt
+#SBATCH --exclusive          # do not share nodes
+#SBATCH --mail-type=all
+#SBATCH --mail-user yang@smu.edu
+
+mpirun ./iim2dmpi.exe

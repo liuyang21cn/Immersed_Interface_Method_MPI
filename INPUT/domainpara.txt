@@ -1,0 +1,11 @@
+&domainpara
+ xi0 = -10.0d0,
+ xi1 =  30.0d0,
+ eta0 = -8.0d0,
+ eta1 =  8.0d0,
+ nx = 1201,
+ ny = 481,
+ px = 4,
+ py = 2,
+ nstep = 50,
+&end

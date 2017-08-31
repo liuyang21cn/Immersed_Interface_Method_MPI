@@ -1,0 +1,14 @@
+&flowpara
+ Re     = 40.0d0,
+ icfl   = 1,
+ cflv   = 0.5d0,
+ cflc   = 0.5d0,
+ dtcfl  = 1.0d-2,
+ dt0    = 3.927d-3,
+ tout   = 0.25d0,
+ iread  = 0,
+ iwrite = 1,
+ itout  = 1,
+ iplot  = 1,
+ ianimation = 0,
+&end
